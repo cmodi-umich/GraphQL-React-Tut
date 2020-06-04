@@ -1,7 +1,9 @@
 import React from "react";
 
+import Profile from "../Profile";
+
 function App() {
-  return <div className='App'>Hello World</div>;
+  return <Profile />;
 }
 
 export default App;
