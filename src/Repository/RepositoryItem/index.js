@@ -62,7 +62,7 @@ const RepositoryItem = ({
               className={"RepositoryItem-title-action"}
               onClick={removeStar}
             >
-              {stargazers.totalCount} Star
+              {stargazers.totalCount} Stars
             </Button>
           )}
         </Mutation>
