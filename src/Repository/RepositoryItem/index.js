@@ -51,7 +51,7 @@ const RepositoryItem = ({
         <Mutation mutation={STAR_REPOSITORY} variables={{ id }}>
           {(addStar, { data, loading, error }) => (
             <Button className={"RepositoryItem-title-action"} onClick={addStar}>
-              {stargazers.totalCount} Star
+              {stargazers.totalCount} Stars
             </Button>
           )}
         </Mutation>
